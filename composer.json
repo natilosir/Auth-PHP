@@ -1,0 +1,25 @@
+{
+    "name": "natilosir/auth",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Natilos.ir",
+            "email": "info@natilos.ir"
+        }
+    ],
+    "require": {
+        "natilosir/jalali": "^1.0",
+        "natilosir/session-php": "^1.0",
+        "natilosir/cookie-php": "^1.0",
+        "natilosir/orm": "^1.0"
+    },
+    "autoload": {
+    "psr-4": {
+      "natilosir\\auth\\": "src/"
+    }
+    },
+    "require-dev": {
+        "laravel/pint": "^1.20"
+    }
+}
