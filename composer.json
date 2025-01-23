@@ -1,5 +1,5 @@
 {
-    "name": "natilosir/auth-php",
+    "name": "natilosir/auth",
     "description": "A simple library for creating and managing users and authentication in PHP",
     "type": "library",
     "license": "MIT",
@@ -11,8 +11,8 @@
     ],
     "require": {
         "natilosir/jalali": "^1.0",
-        "natilosir/session-php": "^1.0",
-        "natilosir/cookie-php": "^1.0",
+        "natilosir/session": "^1.0",
+        "natilosir/cookie": "^1.0",
         "natilosir/orm": "^1.0"
     },
     "autoload": {
