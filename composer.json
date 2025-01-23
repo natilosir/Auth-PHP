@@ -1,5 +1,6 @@
 {
     "name": "natilosir/auth",
+    "description": "A simple library for creating and managing users and authentication in PHP",
     "type": "library",
     "license": "MIT",
     "authors": [
